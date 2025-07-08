@@ -1,0 +1,17 @@
+{
+  "name": "playwright-exp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test --project=chromium",
+    "test:headless": "npx playwright test --project=chromium-headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "1.53.1",
+    "@types/node": "24.0.3"
+  }
+}
