@@ -34,7 +34,7 @@ jobs:
             #   run: npx playwright install chromium --with-deps
             - name: Run project
               run: |
-               npx playwright test --project $PROJECT --reporter=github,html
+               xvfb-run -a npx playwright test --project $PROJECT --reporter=github,html
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4
