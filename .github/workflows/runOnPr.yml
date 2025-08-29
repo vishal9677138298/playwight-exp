@@ -4,6 +4,20 @@ on:
         types: [opened, synchronize]
         branches:
             - main
+    workflow_dispatch:
+        inputs:
+            test-mode:
+                description: 'Test mode'
+                default: 'headless'
+                required: true
+                type:
+                    choice
+                options:
+                  - UI
+                  - HEADLESS
+env:
+    TEST_MODE:   ${{github.event.inputs.test-mode}}
+
 jobs:
     build-the-code:
         runs-on: ubuntu-latest
@@ -13,10 +27,17 @@ jobs:
               uses:  actions/checkout@v4
             - name: Install dependencies
               run: npm ci
-            - name: Run tets
+            - name: Run tets on headless
+              if: ${{env.TEST_MODE == 'HEADLESS'}}
               run: |
                 npm run test:headless
-                pwd
+            - name: Run tets on headless
+              if: ${{env.TEST_MODE == 'UI'}}
+              run: |
+                npm run test:ui
+            - name: Get PWD
+              run: |
+               pwd
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4
