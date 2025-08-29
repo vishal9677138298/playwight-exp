@@ -31,7 +31,7 @@ jobs:
               run: npm ci
             - name: Run project
               run: |
-                npx playwright test --project $PROJECT --reporter=github
+                npx playwright test --project $PROJECT --reporter=github,html
             - name: List the files
               if: always()
               run: |
