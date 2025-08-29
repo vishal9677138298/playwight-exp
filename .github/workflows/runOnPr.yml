@@ -15,3 +15,11 @@ jobs:
               run: npm ci
             - name: Run tets
               run: npm run test:headless
+            - name: upload reports
+              if: always()
+              uses: actions/upload-artifact@v4
+              with:
+                name: test-output
+                path:
+                    playwright-report/
+                    test-results/
