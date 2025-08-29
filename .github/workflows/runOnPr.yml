@@ -7,7 +7,7 @@ on:
 jobs:
     build-the-code:
         runs-on: ubuntu-latest
-        container: mcr.microsoft.com/playwright:v1.55.0-noble
+        container: mcr.microsoft.com/playwright:v1.53.1-noble
         steps:
             - name: Checkout the code
               uses:  actions/checkout@v4
@@ -15,6 +15,3 @@ jobs:
               run: npm ci
             - name: Run tets
               run: npm run test:ui
-
-
-
