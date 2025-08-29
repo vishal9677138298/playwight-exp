@@ -33,7 +33,7 @@ jobs:
               run: |
                 npx playwright test --project $PROJECT --reporter=github
             - name: List the files
-              run:
+              run: |
                 ls
             - name: upload reports
               if: always()
