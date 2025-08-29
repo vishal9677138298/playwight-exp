@@ -5,5 +5,5 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-.auth/
 playwright-exp.code-workspace
+.DS_Store

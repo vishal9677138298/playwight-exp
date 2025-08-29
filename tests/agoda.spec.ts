@@ -19,7 +19,8 @@ test.describe("agoda practice tests", () => {
     tag: '@filtering'
   }, async ({ homePage }) => {
     const filtersToBeApplied: SearchFilter = {
-      "property type": "resort",
+      "property type":
+      "resort",
       "room offers": "breakfast included",
       "payment options": "free cancellation",
       "property facilities": "swimming pool",
@@ -36,9 +37,9 @@ test.describe("agoda practice tests", () => {
   });
 
   [
-    { fromDate: new Date(2025, 8, 3), toDate: new Date(2025, 8, 13) },
-    { fromDate: new Date(2025, 7, 18), toDate: new Date(2025, 7, 20) },
-    { fromDate: new Date(2025, 9, 15), toDate: new Date(2025, 9, 30) },
+    { fromDate: new Date(2025, 9, 3), toDate: new Date(2025, 9, 13) },
+    { fromDate: new Date(2025, 8, 20), toDate: new Date(2025, 8, 25) },
+    { fromDate: new Date(2025, 10, 20), toDate: new Date(2025, 10, 28) },
   ].forEach(dr => {
     test(`test date filtering ${dr.fromDate.toISOString()}`, {
       tag: '@dateFiltering'

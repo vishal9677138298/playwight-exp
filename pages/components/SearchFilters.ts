@@ -1,19 +1,15 @@
-import { Page } from "@playwright/test";
+import { Locator, Page } from "@playwright/test";
 import { SearchFilter } from "../../types/filter.type";
 import { HomePage } from "../HomePage";
 import { PageObj } from "../PageObj";
 
 export class SearchFilters extends PageObj {
-  private xpathForFilter =
-    "xpath=//following-sibling::ul//li//*[@data-selenium='filter-item-text']";
+
   private homePage: HomePage;
 
   async applyFilters(filersToApply: SearchFilter): Promise<HomePage> {
     for (let filter in filersToApply) {
-      await this.page
-        .locator("h3", { hasText: new RegExp(filter, "i") })
-        .locator("..")
-        .locator(this.xpathForFilter)
+      await this.getFiltersUnder(filter)
         .filter({ hasText: new RegExp(filersToApply[filter], "i") })
         .first()
         .click();
@@ -22,12 +18,18 @@ export class SearchFilters extends PageObj {
   }
 
   async getAppliedFilters(): Promise<string[]> {
-    return (await this.page
-      .locator("h3", { hasText: "Your filters" })
-      .first()
-      .locator("..")
-      .locator(this.xpathForFilter)
+    return (await this.getFiltersUnder("Your filters")
       .allInnerTexts())
       .map(filters => filters.toLowerCase())
+  }
+
+  private getFiltersUnder(filterHeader: string): Locator {
+    const xpathForFilter =
+    "xpath=//following-sibling::ul//li//*[@data-selenium='filter-item-text']";
+    return this.page
+        .locator("h3", { hasText: new RegExp(filterHeader, "i") })
+        .first()
+        .locator("xpath=/ancestor::legend")
+        .locator(xpathForFilter);
   }
 }
