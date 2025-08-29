@@ -1,0 +1,45 @@
+name: Run on PR
+on:
+    pull_request:
+        types: [opened, synchronize]
+        branches:
+            - main
+    workflow_dispatch:
+        inputs:
+            test-mode:
+                description: 'Test mode'
+                default: 'HEADLESS'
+                required: true
+                type:
+                    choice
+                options:
+                  - UI
+                  - HEADLESS
+env:
+    TEST_MODE:   ${{github.event.inputs.test-mode || 'HEADLESS'}}
+
+jobs:
+    build-the-code:
+        runs-on: ubuntu-latest
+        container: mcr.microsoft.com/playwright:v1.53.1-noble
+        steps:
+            - name: Checkout the code
+              uses:  actions/checkout@v4
+            - name: Install dependencies
+              run: npm ci
+            - name: Run tets on headless
+              if: ${{env.TEST_MODE == 'HEADLESS'}}
+              run: |
+                npm run test:headless
+            - name: Run tets on headless
+              if: ${{env.TEST_MODE == 'UI'}}
+              run: |
+                npm run test:ui
+            - name: upload reports
+              if: always()
+              uses: actions/upload-artifact@v4
+              with:
+                name: test-output
+                path: |
+                    playwright-report/
+                    test-results/
