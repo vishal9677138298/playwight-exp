@@ -16,7 +16,7 @@ on:
                   - UI
                   - HEADLESS
 env:
-    TEST_MODE:   ${{github.event.inputs.test-mode}}
+    TEST_MODE:   ${{github.event.inputs.test-mode || 'HEADLESS'}}
 
 jobs:
     build-the-code:
