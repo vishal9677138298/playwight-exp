@@ -6,35 +6,35 @@ on:
             - main
     workflow_dispatch:
         inputs:
-            test-mode:
-                description: 'Test mode'
-                default: 'HEADLESS'
-                required: true
+            project:
+                description: 'The project that has to be executed'
                 type:
                     choice
+                required: true
+                default: 'chromium-headless'
                 options:
-                  - UI
-                  - HEADLESS
+                  - chromium-headless
+                  - naukri-tests
+                  - dhc-tests-no-auth
+                  - blaze-tests
 env:
-    TEST_MODE:   ${{github.event.inputs.test-mode || 'HEADLESS'}}
+    PROJECT: ${{github.event.inputs.project || 'experimental'}}
 
 jobs:
     build-the-code:
         runs-on: ubuntu-latest
-        container: mcr.microsoft.com/playwright:v1.53.1-noble
         steps:
             - name: Checkout the code
               uses:  actions/checkout@v4
             - name: Install dependencies
               run: npm ci
-            - name: Run tets on headless
-              if: ${{env.TEST_MODE == 'HEADLESS'}}
+            - name: Install Chrome
+              run: sudo apt-get update && sudo apt-get install -y google-chrome-stable
+            # - name: Install Playwright Browsers
+            #   run: npx playwright install chromium --with-deps
+            - name: Run project
               run: |
-                npm run test:headless
-            - name: Run tets on headless
-              if: ${{env.TEST_MODE == 'UI'}}
-              run: |
-                npm run test:ui
+               xvfb-run -a npx playwright test --project $PROJECT --reporter=github,html
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4

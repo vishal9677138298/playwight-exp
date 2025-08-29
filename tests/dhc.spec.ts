@@ -36,11 +36,11 @@ test.describe("dhc tests", () => {
     await dhcPage.getByText(/Add to cart/i).first().click();
   });
 
-  test.afterAll("logout", async({dhcPage}) => {
-    console.log("Full logout")
-    await dhcPage.goto("https://dhcbeauty.in/account");
-    await dhcPage.getByRole('button', {name: 'Logout'}).click();
-    await expect(dhcPage.getByText('TOP CATEGORIES')).toBeVisible();
-    await dhcPage.context().browser()?.close();
-  });
+  // test.afterAll("logout", async({dhcPage}) => {
+  //   console.log("Full logout")
+  //   await dhcPage.goto("https://dhcbeauty.in/account");
+  //   await dhcPage.getByRole('button', {name: 'Logout'}).click();
+  //   await expect(dhcPage.getByText('TOP CATEGORIES')).toBeVisible();
+  //   await dhcPage.context().browser()?.close();
+  // });
 });

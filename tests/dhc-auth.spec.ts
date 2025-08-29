@@ -2,6 +2,9 @@ import { test as dhcAuthSetup, expect } from "@playwright/test";
 import path from "path";
 
 const authFile = path.join(__dirname, "../.auth/dhcUser.json");
+dhcAuthSetup.use({
+  headless: false
+});
 
 dhcAuthSetup("dhc auth setup", async ({ page }) => {
   await page.goto("https://dhcbeauty.in/");

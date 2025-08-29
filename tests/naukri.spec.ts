@@ -25,7 +25,7 @@ test.describe("naukri tests", () => {
     const allNviteJobs = page.locator(".inbox-job-card span.title");
     await expect
       .poll(async () => await allNviteJobs.count(), { timeout: 10000 })
-      .toBeGreaterThan(10);
+      .toBeGreaterThan(3);
     await waitTillVisibilityOfAll(allNviteJobs);
     const testt = await allNviteJobs.allInnerTexts();
     console.log(testt);

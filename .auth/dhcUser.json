@@ -1,0 +1,533 @@
+{
+  "cookies": [
+    {
+      "name": "localization",
+      "value": "IN",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026974.762649,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_y",
+      "value": "a2099dbe-3edb-49c0-b6ba-45ece5e5a4df",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1788048578.497892,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_tracking_consent",
+      "value": "3.AMPS_INKA_f_f_Uw3LeKcfSb6erUqzGiqx5Q",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1788048543.674269,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_orig_referrer",
+      "value": "",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1757700543.674286,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_landing_page",
+      "value": "%2F",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1757700543.674302,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLID",
+      "value": "538a375676e64145b2b48d6ce8c844ed.20250829.20260829",
+      "domain": "www.clarity.ms",
+      "path": "/",
+      "expires": 1788026944.016189,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.787821295.1756490944",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050975.453552,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clck",
+      "value": "88melp%5E2%5Efyv%5E0%5E2067",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026944,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1756490944357.627789995706476199",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1764266975,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSession_2854406",
+      "value": "eyJpZCI6IjI5MDZjNjhiLTE0OTktNGJlNi1hODE5LTY5YzZhZjE4MDY4YyIsImMiOjE3NTY0OTA5NDQ0MDUsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1756492744,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__kla_id",
+      "value": "eyJjaWQiOiJNRGMwTTJZMU5Ea3ROakJtWVMwMFlqQTNMV0ZqWldZdFpEZzNOamN3T0RRMk5XWXoifQ==",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050944.537902,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "Geejjf72/oTZ2CT+wuum2cDOpSST0JuBpi+x7dZoSqCtv/+e0RdViloYNaAxZmw4HCWnutLE7zEizjHilMiSF2rBYqwkRFKk7PCGNGtLeq5uk2Du6s1ljHdCA1tA",
+      "domain": "apps.pagefly.io",
+      "path": "/",
+      "expires": 1757095744.678669,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "connect.sid",
+      "value": "s%3ADEAxN7rvDdGDU62q_L6XmwtQWZuJEDAk.CVXU0ktE2UfrEdvoEdnQa6w8D%2BAkH4iOP9OwVBV7lqM",
+      "domain": "apps.pagefly.io",
+      "path": "/",
+      "expires": 1757095744.678693,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "wlcIp",
+      "value": "115.99.239.32",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026944,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "is_variant_wishlist",
+      "value": "1",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026975,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_first_visit_time",
+      "value": "1756490945.434",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050945.434891,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_last_visit_time",
+      "value": "1756490945.434",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026945,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_current_visit_time",
+      "value": "1756490945.434",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1757095745,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_num_of_vists",
+      "value": "1",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1772042945,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_event_user_id",
+      "value": "94kj0buq7pi31612rzdk",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050945.43637,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_geo_country",
+      "value": "India",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050945.452159,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_cart_json",
+      "value": "%7B%7D",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050945.452859,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_is_custom",
+      "value": "false",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050950.941381,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_viewed_product_json",
+      "value": "%7B%7D",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050946.423497,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "12B03B25FA0A6EC618212D72FB686F00",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1790186947.807605,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1757095747.807647,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "12B03B25FA0A6EC618212D72FB686F00",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1790186947.807672,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "12B03B25FA0A6EC618212D72FB686F00",
+      "domain": ".clarity.ms",
+      "path": "/",
+      "expires": 1790186946.911148,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1757095746.911182,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": ".c.clarity.ms",
+      "path": "/",
+      "expires": 1756491546.911198,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "settingVersion",
+      "value": "2",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026953,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUnx3k2fILQjfAshZK42YYGOdX-y3z4osLFJP6mRrMi7WQ6yXM83LZpzPGEY",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1791050947.793297,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_shopify_s",
+      "value": "e5d81e94-bdec-48b2-9b96-7bb00a1c0b72",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1756492778.49828,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSessionUser_2854406",
+      "value": "eyJpZCI6ImIxNjg3MzhjLTA0MTAtNTViMC1iMGNiLTZiNzU0ZDJjYTU0ZiIsImNyZWF0ZWQiOjE3NTY0OTA5NDQ0MDQsImV4aXN0aW5nIjp0cnVlfQ==",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026948,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cnt_discount_code_209635",
+      "value": "_true",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1756922950,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_timer_details_209635",
+      "value": "00_00_00_00_true",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1759082950,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_cnt_forms_status",
+      "value": "%7B%2215353%22%3A%5B%22cnt_ab%22%2C1756490951%5D%7D",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050951.387119,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1534669322.1756490944.2004077918.1756490973.1756490972",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1764266944,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_shopify_essential",
+      "value": ":AZj3BMywAAH_BU8PbOXl9nQhfQX1NiNqycL9IRIZ_Bj4vl8rCc2S1jm_JBQnNQSWaBuKUD16tvvigtPKLM_Am2qgpOCMv9iB7NZZM62SOnQ8NHHU2XvPqfUgRQs__HfR2Vlm0mc3syn5Vo2nybQbXTIo6P6U7L_ytoEt6S6gcgTHdqw2v9REjNlxiATx0_-skgMDS4x-Qit7n78:",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026974.763101,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_clsk",
+      "value": "xoa0v6%5E1756490975201%5E3%5E1%5Ek.clarity.ms%2Fcollect",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1756577375,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "wlcCustomer_id",
+      "value": "6119309476047",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": 1788026979,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_KF2LQGTLRF",
+      "value": "GS2.1.s1756490944$o1$g1$t1756490975$j29$l0$h0",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050975.427283,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_SZ9P84BT72",
+      "value": "GS2.1.s1756490944$o1$g1$t1756490975$j29$l0$h0",
+      "domain": ".dhcbeauty.in",
+      "path": "/",
+      "expires": 1791050975.453409,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "keep_alive",
+      "value": "eyJ2IjoyLCJ0cyI6MTc1NjQ5MDk4MDQ0MywiZW52Ijp7IndkIjoxLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0Ijo1LCJubSI6MCwibXMiOjAsIm1qIjowLCJtc3AiOjAsInZjIjowLCJjcCI6MCwicmMiOjAsImtqIjowLCJraSI6MCwic3MiOjAsInNqIjowLCJzc20iOjAsInNwIjowLCJ0cyI6MCwidGoiOjAsInRwIjowLCJ0c20iOjB9LCJzZXMiOnsicCI6MywicyI6MTc1NjQ5MDk0NDg4NCwiZCI6MzR9fQ%3D%3D",
+      "domain": "dhcbeauty.in",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://dhcbeauty.in",
+      "localStorage": [
+        {
+          "name": "pf-analytic-checked",
+          "value": "{\"result\":false,\"checkedTime\":1756490944940}"
+        },
+        {
+          "name": "chInitPageLoad",
+          "value": "false"
+        },
+        {
+          "name": "topicsLastReferenceTime",
+          "value": "1756490975439"
+        },
+        {
+          "name": "th_wishlist_lists",
+          "value": "[]"
+        },
+        {
+          "name": "nector_entity",
+          "value": "18b29783-9e1e-4517-9a8f-b348280004d1"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":3,\"creationTimeMs\":1756490975474},\"expires\":1764266975474}}"
+        },
+        {
+          "name": "bogos_discounts_apply",
+          "value": "NoXSA==="
+        },
+        {
+          "name": "__kl_key",
+          "value": "VMzNaA"
+        },
+        {
+          "name": "sca_products_info",
+          "value": "N4IgJghgLhIFwG1QEszwOwGYAsAmb2AjAKwBsumhAnADQgAWEAdmADYCm84AxgPYC0AZwjd67KCDpRkUDlwAiAYQDyAAgDKIsRLoA3CACdkzKIID6ARwCuJmQE94obJkwAGEq9xVCr0ukLw/JgAvnQAZuzQVgbsYGbIALYQAOaccCAA9Blg9NwARpFWUHYAdMhMGdxgFYL0vAAOGWHIHILZfMLcJQBW9ckA/LoAvITorgAcxISjVOOSIBD6LRB5cnBhEKyC7HrsLLwGCgASiqoAkizG88X1aSDzfKwc3NK8TILwCAC6eobGTKZPig0HBnG4PF4fH5CHRFhBlqs0hstjsQPUjNw0q46HwEvVDOwzNAzOjkJj4EwrE8pDI1iB5OwNlSoKoACq0zjhSJQaKxeJJVKOECCAzcLhZHL5QrFMoVKo1OqNZqtdq8To9PqDEZjSbTdCzEChEDlXR7KAHOxmJJMFLsBJmri1BrIMIOYJfULAjCYPx+WakbyYYh0RgsOlQdgGAx2fjcVi8KD0IT4/hiCBgPLMMD8ADuRkEUH45pz7FY1w5XFZkejqkU8cTGnxqiOkQzWdUADJVAB1fMs1m8Etl35GEzmay2YpCsF+LDjbCubx+eCUYhGiJRGJxRK28XZXIFCBFUrlSrVDJOpUtdhtI7wgyZli95AFxRWMJhRS8BJ5XiEDUDMMoyELgoHEG4VDzHCCJrFABhWKipr7Ic6TyCc5yXLAUh2LcXDJDm9QPLwTzsC8yBvB8iA/CA+ijgClFIMaIIzugc4Lku6CwksrArLB8GoqS5KglQVCuNiIC4viMRElAJIYmklLUiA0iyHcDJMqw/YVlym58jugpwKAIpiukEoHtKJ5yuel5NNet73o+YDPq+76ft+v7/r0gHaiBYEQYadAmmaFpWswtr2gCjqKi6boejQXpwOgxBUOQpDjLgxDoNg4ycQwWZ0mAfBCFo4hCNwEBmHGbyEmEMTsMkLo6MpFbpAA3aoShqJoojiKoAAUPiuAApKovAfgAlPMtH/KYlg2AC9jTkQ4GkIQ2BULgpCuJQ8CTKQ67cry24CncZlSkeMqnvKF6KrZKqFWqIhmOMVArNwrhhFQ/DYHk73fdwGX8Bt7B5N9OVgIQYSuAQmC4J5mpAXOhA4OMi5QdxvFpHBCG7MhxynBcYBXNhuHpERJFkRRnzUdNY5Akx8AECQPprRtW2UFx8I8Yi8DYwJ8nwOJkkEjJclkgpVKsDSqkKIyR6aWy2kgBuPJbvyu6GcKop7pKh7HrKZ4Kg0d03qqnTPa9v0fV9P1/dgAPEEDuAg2D6AQ1DMNwwBWqjJg4zI9laNGkFAIhda4UOnAimsO6noM4lyWpUl23pZgIb5XcEZRjGVWJsmECpq2jm5n2RaDqWZUVVVTA1XVDVhE1Kl0u1VbZ7W9b0I2EDNkX7Zds5/bl6w/WDSNY1hJNI4zeO80qQ4mtMyt0wkKx0yM+MIQ6areknTr5kXZZhs3cbyqm3eyAPlmA9vh+X4/n+Ziw1QeDcGE6BA5g7DYN9eTkPwEDZVBrqcgYQcqZVft7RGfsA7EA3ujLmmNeb8VxmAA4+MMJEywspHCdxybPFeO8amU86aIASovFm0xMr+BhAsDGPM4B8zoIJLEOJvxSUJMSZhFJJbSzpOpeWWkZZbyOurAyRltamX3OdfWV1rK3VPvZC+jlr6uTvh5R+XgX5vw/l/H+f8AHjCAVMEBYD0AQK8j7JGOBYGYACsaJgSFzTRlCjaVIEUJBR0lrHai0h7TwFGGQdai50CTHcMEIAA=="
+        },
+        {
+          "name": "lastExternalReferrerTime",
+          "value": "1756490944354"
+        },
+        {
+          "name": "sca_offers_added",
+          "value": "NoXSA==="
+        },
+        {
+          "name": "$referrer",
+          "value": "{\"ts\":1756490945,\"value\":\"\",\"first_page\":\"https://dhcbeauty.in/\"}"
+        },
+        {
+          "name": "th_wishlist_products_list",
+          "value": "[]"
+        },
+        {
+          "name": "$last_referrer",
+          "value": "{\"ts\":1756490945,\"value\":\"\",\"first_page\":\"https://dhcbeauty.in/\"}"
+        },
+        {
+          "name": "th_default_settings_content",
+          "value": "{\"status\":200,\"data\":{\"setting\":{\"id\":1877,\"currency\":\"INR\",\"money_format\":\"₹ {{amount_no_decimals}}\",\"plan_type\":\"5\",\"domain\":\"dhc-ind.myshopify.com\",\"plan_status\":\"2\",\"activated_at\":\"2024-02-20 09:22:20\",\"billing_on\":\"2024-10-31 00:00:00\",\"is_older_shop\":0,\"app_enable\":1,\"guest_wishlist\":1,\"is_same_wishlist\":0,\"share_wishlist\":0,\"multiple_wishlist\":0,\"is_variant_wishlist\":1,\"is_clear_cart\":1,\"type\":\"1\",\"icon\":\"<svg width=\\\"26\\\" height=\\\"23\\\" viewBox=\\\"0 0 26 23\\\" fill=\\\"none\\\"><path d=\\\"M24.8759 3.27339C24.1475 2.06525 23.0806 1.12141 21.8207 0.57048C20.3932 -0.0562504 18.7897 -0.169062 17.1839 0.245058C15.7124 0.624602 14.279 1.4478 13 2.64198C11.7209 1.44769 10.2874 0.624442 8.8156 0.244952C7.20974 -0.169327 5.60622 -0.0564097 4.17865 0.570745C2.91872 1.12185 1.8519 2.06588 1.12359 3.27418C0.360858 4.53529 -0.0271625 6.06892 0.00147825 7.70909C0.128635 15.0007 10.5135 21.6311 12.594 22.8863C12.7175 22.9608 12.8575 23 13 23C13.1425 23 13.2825 22.9608 13.406 22.8863C15.4867 21.6309 25.8725 14.9993 25.9986 7.70782C26.0269 6.06775 25.6387 4.53428 24.8759 3.27339V3.27339ZM24.3739 7.67728C24.3332 10.0348 22.8306 12.7835 20.0288 15.6259C17.4342 18.258 14.4828 20.242 13 21.1651C11.5172 20.2422 8.56627 18.2584 5.97185 15.6262C3.16993 12.784 1.66731 10.0356 1.62618 7.67808C1.58129 5.10386 2.77074 3.03273 4.80794 2.13773C5.4756 1.84606 6.19237 1.69728 6.91592 1.70019C8.78442 1.70019 10.7609 2.64623 12.4206 4.41138C12.4962 4.49179 12.5864 4.55566 12.6859 4.59926C12.7853 4.64285 12.8921 4.6653 12.9999 4.6653C13.1078 4.6653 13.2145 4.64285 13.314 4.59926C13.4134 4.55566 13.5036 4.49179 13.5792 4.41138C15.885 1.95916 18.8021 1.08796 21.1913 2.13757C23.2287 3.03225 24.4183 5.10307 24.3739 7.67712V7.67728Z\\\" fill=\\\"black\\\"></path></svg>\",\"layout_type\":0,\"button_type\":\"1\",\"button_color_before\":\"#093289\",\"button_color_after\":\"#093289\",\"button_bg_color_before\":\"#ffffff\",\"button_bg_color_after\":\"#ffffff\",\"button_border_width\":\"0\",\"button_border_type\":\"solid\",\"button_border_color_before\":\"#093289\",\"button_border_color_after\":\"#093289\",\"button_border_radius\":\"0\",\"button_top_bottom_padding\":\"0\",\"button_left_right_padding\":\"0\",\"button_position\":\"1\",\"button_text_before\":\"Add to Wishlist\",\"button_text_after\":\"Added to Wishlist\",\"module_name\":\"My Wishlist\",\"launcher_icon\":null,\"desktop_placement\":\"4\",\"desktop_side_spacing\":\"20\",\"desktop_bottom_spacing\":\"20\",\"mobile_placement\":\"4\",\"mobile_side_spacing\":\"20\",\"mobile_bottom_spacing\":\"20\",\"launcher_button_color\":\"#0b3d80\",\"item_count\":1,\"total_count\":0,\"wishlist_type\":\"1\",\"wishlist_button_color_before\":\"#ffffff\",\"wishlist_button_color_after\":\"#ffffff\",\"wishlist_button_text_before\":\"Add to Cart\",\"wishlist_button_text_after\":\"Added to Cart\",\"notification_banner_header_text\":\"Product added to Wishlist\",\"notification_banner_header_text_color\":\"#000000\",\"notification_banner_header_bg_color\":\"#d4d4d4\",\"notification_banner_button_text\":\"View Wishlist\",\"notification_banner_button_text_color\":\"#000000\",\"notification_banner_button_bg_color\":\"#d4d4d4\",\"wishlist_page_title\":\"My Wishlist\",\"share_title\":\"Share on\",\"share_description\":\"Check my wishlist\",\"add_to_cart\":\"Add to Cart\",\"load_more_button_text\":\"Load More\",\"load_more_button_bg_color\":\"#000000\",\"load_more_button_text_color\":\"#FFFFFF\",\"Wishlist_page_login_or_register\":\"Or\",\"remove_product\":\"Remove Product\",\"product_collection_button_border_width\":\"0\",\"product_collection_button_border_radius\":\"0\",\"product_collection_button_top_bottom_padding\":\"0\",\"product_collection_button_left_right_padding\":\"0\",\"product_collection_button_position\":\"2\",\"product_collection_button_text_before\":\"Add to Wishlist\",\"product_collection_button_color_before\":\"#093289\",\"product_collection_button_bg_color_before\":\"#ffffff\",\"product_collection_button_text_after\":\"Added to Wishlist\",\"product_collection_button_color_after\":\"#093289\",\"product_collection_button_bg_color_after\":\"#ffffff\",\"product_collection_button_border_color_after\":\"#ffffff\",\"product_collection_button_border_color_before\":\"#ffffff\",\"product_collection_button_type\":\"1\",\"product_collection_total_count\":0,\"sold_out\":\"Sold Out\",\"no_product\":\"There is no product in your wishlist!\",\"product_add_to_wishlist\":\"Product added to Wishlist\",\"product_remove_wishlist\":\"Product removed from wishlist\",\"product_add_to_cart\":\"Product added to cart\",\"product_add_to_cart_error_title\":\"There is an Error!!!\",\"product_add_to_cart_error_message\":\"Product is not added to cart, please contact us\",\"view_list_button\":\"View Wishlist\",\"view_cart_button\":\"View Cart\",\"wishlist_dropdown_text\":\"Create another Wish List\",\"wishlist_model_title\":\"Create Wishlist List\",\"wishlist_model_label\":\"List name\",\"wishlist_model_placeholder\":\"Create Wishlist List\",\"default_wishlist_title\":\"My Wishlist\",\"wishlist_model_description\":\"Use lists to save items for later. All lists are private unless you share them with others.\",\"wishlist_model_create_button\":\"Create List\",\"wishlist_model_cancel_button\":\"Cancel\",\"wishlist_model_cancel_button_text_colour\":\"#fff\",\"wishlist_model_cancel_button_bg_colour\":\"#6c757d\",\"wishlist_model_create_button_text_colour\":\"#fff\",\"wishlist_model_create_button_bg_colour\":\"#000000\",\"wishlist_page_description\":\"To save your wishlist please\",\"wishlist_page_login_text\":\"login\",\"wishlist_page_Register_text\":\"sign up\",\"all_product_add_to_cart_button_text\":\"Add to cart all\",\"all_product_add_to_cart_button_bg_color\":\"#000000\",\"all_product_add_to_cart_button_text_color\":\"#FFFFFF\",\"success_message_bg_color\":\"#04AA6D\",\"success_message_text_color\":\"#FFFFFF\",\"error_message_bg_color\":\"#f00000\",\"error_message_text_color\":\"#FFFFFF\\t\",\"clear_cart_message\":\"Do you want to remove all existing items from your cart and add all wishlist products?\",\"is_dispaly_add_to_cart_all\":0,\"redirect_type\":-1},\"ip\":\"115.99.239.32\",\"wishlist\":[]},\"message\":\"success\"}"
+        },
+        {
+          "name": "lastExternalReferrer",
+          "value": "empty"
+        },
+        {
+          "name": "chCachedInitCss",
+          "value": ".main-content{min-height:auto;}.main-content > *{display: none;}.ch-show-standard-account .main-content > *{display:revert!important;}"
+        },
+        {
+          "name": "kl-post-identification-sync",
+          "value": "[{\"name\":\"__activity__\",\"time\":\"2025-08-29T18:09:04.537Z\",\"properties\":{\"initial_page_path\":\"/\",\"page\":\"https://dhcbeauty.in/\",\"browser\":\"Chrome\",\"os\":\"Mac\"}},{\"name\":\"__activity__\",\"time\":\"2025-08-29T18:09:08.892Z\",\"properties\":{\"return_url\":\"/account\",\"initial_page_path\":\"/account/login\",\"page\":\"https://dhcbeauty.in/account/login?return_url=%2Faccount\",\"browser\":\"Chrome\",\"os\":\"Mac\"}}]"
+        }
+      ]
+    }
+  ]
+}

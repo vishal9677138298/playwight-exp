@@ -5,6 +5,10 @@ import { config } from "../app.config";
 
 test.describe("blaze tests", () => {
 
+      test.use({
+          storageState: "./.auth/user.json"
+      });
+
     test("checking login state", async({page}) => {
         const blazeHome = new BlazeHome(page);
         await page.goto(config.url.blaze);
