@@ -54,6 +54,15 @@ export default defineConfig({
         headless: false
       },
       testMatch: 'tests/demo-blaze.spec.ts'
+    },
+    {
+      name: 'experimental',
+      use: {
+        browserName: 'chromium',
+        channel: 'chrome',
+        headless: false
+      },
+      testMatch: "tests/naukri.spec.ts",
     }
   ],
 });

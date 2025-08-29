@@ -18,7 +18,7 @@ on:
                   - dhc-tests-no-auth
                   - blaze-tests
 env:
-    PROJECT: ${{github.event.inputs.project || 'chromium-headless'}}
+    PROJECT: ${{github.event.inputs.project || 'experimental'}}
 
 jobs:
     build-the-code:
@@ -28,11 +28,13 @@ jobs:
               uses:  actions/checkout@v4
             - name: Install dependencies
               run: npm ci
-            - name: Install Playwright Browsers
-              run: npx playwright install chromium --with-deps
+            - name: Install Chrome
+              run: sudo apt-get update && sudo apt-get install -y google-chrome-stable
+            # - name: Install Playwright Browsers
+            #   run: npx playwright install chromium --with-deps
             - name: Run project
               run: |
-                xvfb-run -a npx playwright test --project $PROJECT --reporter=github,html
+               npx playwright test --project $PROJECT --reporter=github,html
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4
