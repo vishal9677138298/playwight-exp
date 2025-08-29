@@ -32,6 +32,9 @@ jobs:
             - name: Run project
               run: |
                 npx playwright test --project $PROJECT --reporter=github
+            - name: List the files
+              run:
+                ls
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4
