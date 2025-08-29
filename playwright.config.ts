@@ -31,19 +31,12 @@ export default defineConfig({
       testMatch: "tests/blaze-auth.ts",
     },
     {
-      name: "chromium",
-      use: {
-        ...devices["Desktop Chrome"],
-        headless: false
-      },
-      testIgnore: ['**/*auth*.ts']
-    },
-    {
       name: "chromium-headless",
       use: {
         ...devices["Desktop Chrome"],
         headless: true,
       },
+      testIgnore: ['**/*auth*.ts', '**/*naukri*.ts']
     },
     {
       name: "naukri-tests",
