@@ -5,7 +5,7 @@ const dhcUnauthenticated = {
   use: {
     ...devices["Desktop Chrome"],
     storageState: "./.auth/dhcUser.json",
-    headless: false,
+    headless: true,
   },
   testMatch: "tests/dhc.spec.ts",
 };
