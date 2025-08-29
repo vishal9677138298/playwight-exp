@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test:ui": "npx playwright test --project=chromium",
-    "test:headless": "npx playwright test --project=chromium-headless"
+    "test:headless": "npx playwright test --project=chromium-headless --reporter=github"
   },
   "keywords": [],
   "author": "",
