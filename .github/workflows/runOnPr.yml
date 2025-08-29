@@ -14,12 +14,14 @@ jobs:
             - name: Install dependencies
               run: npm ci
             - name: Run tets
-              run: npm run test:headless
+              run: |
+                npm run test:headless
+                pwd
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4
               with:
                 name: test-output
-                path:
+                path: |
                     playwright-report/
                     test-results/
