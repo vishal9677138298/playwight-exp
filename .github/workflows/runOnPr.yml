@@ -8,7 +8,7 @@ on:
         inputs:
             test-mode:
                 description: 'Test mode'
-                default: 'headless'
+                default: 'HEADLESS'
                 required: true
                 type:
                     choice
@@ -35,9 +35,6 @@ jobs:
               if: ${{env.TEST_MODE == 'UI'}}
               run: |
                 npm run test:ui
-            - name: Get PWD
-              run: |
-               pwd
             - name: upload reports
               if: always()
               uses: actions/upload-artifact@v4
